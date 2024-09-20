@@ -1,0 +1,90 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+   background-color: #fff;
+}
+
+#cabecalho .nav .nav-link.active, 
+#contato button {
+    background-color: #e15f3f;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #e15f3f;
+}
+
+.navbar-toggler {
+    background-color: #faebe8;
+}
+
+.section-background {
+    background-color: #faebe8;
+
+}
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: #e15f3f;
+}
+
+#servicos img {
+    border: 3px solid #2a373d;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-container:hover img{
+    box-shadow: inset 0 0 0 5px #000;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.icon-utilitarios {
+    font-size: 80px;
+    transition: color 0.3s ease;
+    color: #0f598b;
+}
+
+.icon-utilitarios:hover {
+    color: #aaa;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
